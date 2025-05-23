@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Renata!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="confetti-canvas"></canvas>
+  <div class="container">
+    <img src="renata.jpg" alt="Foto Renata" class="profile-pic">
+    <div class="balloons">
+      <div class="balloon pink"></div>
+      <div class="balloon lightpink"></div>
+      <div class="balloon hotpink"></div>
+    </div>
+    <h1 id="typing-text"></h1>
+    <button id="play-music">Putar Musik 🎵</button>
+  </div>
+
+  <audio id="bg-music" loop>
+    <source src="birthday.mp3" type="audio/mpeg">
+    Browser kamu tidak mendukung audio.
+  </audio>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</body>
+</html>
